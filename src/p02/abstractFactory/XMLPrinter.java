@@ -17,7 +17,7 @@ public class XMLPrinter implements Printer {
 	@Override
 	public void print(String text) {
 		System.out.println("=================");
-		System.out.println("XML");
+		System.out.println("<XML>");
 		System.out.println(text);
 		System.out.println("=================");
 	}
